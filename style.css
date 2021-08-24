@@ -1,1 +1,47 @@
-/*Personal Web Page Style Sheet */
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+  font-family: Serif;
+}
+
+h2 {
+  text-decoration: underline;
+  color: dimgrey;
+  font-family: Sans-Serif;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: purple;
+}
+
+a:visited {
+    color: green;
+}
+
+.image1 {
+    height: 100px;
+    width: 50px;
+}
+
+ul {
+    list-style: square;
+}
